@@ -139,7 +139,7 @@ git log --pretty=format:"%h - %ad - %an - %s" --date=format:"%d.%m.%Y %H:%M:%S"
 
 <img alt="Снимок10" src="скриншоты/mintty_Gl92FRiglh.png" />
 
-## Лог комманд
+## Лог команд
 ```bash
 git clone https://github.com/quadronik/coffee_room_bot.git
 git remote add origin https://github.com/quadronik/coffee_room_bot.git
