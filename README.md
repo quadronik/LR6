@@ -139,5 +139,52 @@ git log --pretty=format:"%h - %ad - %an - %s" --date=format:"%d.%m.%Y %H:%M:%S"
 
 <img alt="Снимок10" src="скриншоты/mintty_Gl92FRiglh.png" />
 
+## Лог комманд
+```bash
+git clone https://github.com/quadronik/coffee_room_bot.git
+git remote add origin https://github.com/quadronik/coffee_room_bot.git
+git clone https://github.com/quadronik/LR6.git
+git config --global user.name "Astarkin A. E. 4517"
+git clone https://github.com/quadronik/LR6.git
+git switch -f branch1
+git add .
+git commit -m "Изменен файл mergefile.txt"
+git log --all --graph --decorate --oneline
+git log -p -1
+git switch master
+git branch -a
+git merge branch1
+git add .
+git commit -m "Решен конфликт слияния"
+git branch -D branch1
+git push origin --delete feature
+git push origin --delete branch1
+git add .
+git commit -m "добавлен useless.txt"
+git log --oneline
+git revert 14a00f2
+git revert -m 1 14a00f2
+git log --oneline
+git switch -b report
+git chekout -b report
+git checkout -b report
+git log --pretty=format:"%h - %ad - %an - %s" --date=format:"%d.%m.%Y %H:%M:%S"
+git add .
+git commit -m "добавлена папка со скриншотами"
+git add .
+git commit -m "добавление скриншотов"
+git add .
+git commit -m "изменения в отчете"
+git add .
+git commit -m "изменения в отчете"
+git push -u origin report
+git add .
+git commit -m "Изменения в отчете"
+git push -u origin report
+git add .
+git commit -m "Удаление ненужных файлов"
+git push -u origin report
+```
+
 ## Вывод
 В данной лабораторной работе были изучены базовые возможности системы управления версиями, был получен опыт работы с Git Api и опыт работы с локальным и удаленным репозиторие, также был получен опыт работы с Markdown
